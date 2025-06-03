@@ -1,0 +1,30 @@
+body {
+    background-image: url(../assets/img/fundo\ do\ site.jpg);
+    background-repeat: no-repeat;/* para o fundo não repetir */
+    background-position: center;
+    background-size: cover;
+    color: white;
+    backdrop-filter: blur(5px);
+
+}
+
+body .main .pai-de-todos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+body .main .pai-de-todos iframe {
+    height: 500px;
+    width: 800px;
+    border: 5px #111 solid;
+    border-radius: 50px;
+}
+
+body .main .pai-de-todos footer {
+    display: flex;
+    padding: 100px;
+    
+}

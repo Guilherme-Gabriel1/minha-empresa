@@ -1,0 +1,15 @@
+
+.pai-dos-lados {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.pai-dos-lados .lado-direito img {
+    width: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom, #65E8FC, #65FCAC,#65FC78);
+}
+

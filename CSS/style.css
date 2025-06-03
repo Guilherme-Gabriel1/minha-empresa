@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho {
+    display: flex;/* Deixa os filhos um ao lado do outro */
+    justify-content: space-between; 
+    background-color: black;
+    padding: 30px 60px;
+    color: white;
+    align-items: center;
+}
+
+.cabecalho h1 {
+    animation: movimentar 3s ;
+}
+
+.cabecalho ul {
+    display: flex;/* Deixa os filhos um ao lado do outro */
+    gap: 20px;
+
+}
+
+.cabecalho ul li a {
+    color: white;
+}
+
+.cabecalho .menu {
+    display: none;
+}
+
+.main {
+    padding: 30px 60px;
+}
+
+.pai-dos-lados {
+    display: flex;
+}
+
+.btn:hover {
+    background-color: #444;
+    transition: 0.5s all;
+}
+
+.rodape {
+    background-color: black;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .cabecalho nav {
+        display: none;
+    }
+    .cabecalho .menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .main {
+        padding: 10px;
+    }
+}
+
+.cabecalho nav ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.cabecalho nav ul li .selected {
+    background-color: white;
+    color: black;
+}
+
+.cabecalho nav ul li .selected:hover {
+    background-color: black;
+    color: white;
+}
+
+@keyframes balada {
+    0% {
+        color: green
+    }
+    50% {
+        color: blue
+    }
+    100% {
+        color: yellow;
+    }
+}
+
+@keyframes movimentar {
+    0% {
+        transform: translate(-300px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}

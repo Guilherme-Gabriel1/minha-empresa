@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tag para descrever o nome do desenvolverdor -->
+    <meta name="author" content="Guilherme Gabriel">
+    <!-- shift + alt + a para adicionar comentários-->
+    <!-- Tag "Link:favicon" para adicionar ICON na barra do navegador -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Minha Empresa</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Logo</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a class="selected" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pages/historia.html">História</a>
+                </li>
+                <li>
+                    <a href="pages/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="pai-dos-lados">
+            <div class="lado-esquerdo">
+                <h1 style="color: blueviolet;">Minha Empresa</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicingelit. Reiciendis excepturi dignissimos nostrum earum quasi quae eos magnam eius quia debitis, esse natus laboriosam placeat sunt error quis in totam labore. Corporis excepturi eaque similique, qui aspernatur repellendus maxime, suscipit odit ut placeat officiis ea repudiandae totam saepe eum nulla labore, deleniti nesciunt porro tempora facere iure explicabo sint commodi! Non ipsam, sed error quia deleniti excepturi necessitatibus eveniet earum quasi enim maiores adipisci, repellendus minima veritatis, voluptatum velit id voluptatem illo aspernatur? Fugit quas laboriosam culpa illo doloremque aliquam libero explicabo perspiciatis, aliquid autem dolorum veritatis sed dolore reiciendis omnis?</p>
+                <!-- Para adicionar um BOTÃO usamos o "<button> </button>" -->
+                <a class="btn" href="pages/historia.html">Conheça nossa História</a>
+            </div>
+
+            <div class="lado-direito">
+                <img width="800" src="assets/img/Empresa.jpg" alt="5 pessoas com as mãos juntas em uma mesa de reunião.">
+            </div>
+        </section>
+
+        <section class="Newsletter">
+            <div class="paragrafo">
+                <h2>Inscreva-se em nossa Newsletter</h2>
+                <p>Tenha as ultimas noticias sobre a nossa empresa - todas as segunda-feiras.</p>
+            </div>
+                <form>
+                    <input type="text" id=nome placeholder="Digite seu nome Completo" required>
+                    <input type="email" id=email placeholder="Digite seu E-mail" required>
+                    <input class="btn" type="submit" value="Inscreva-se">
+                </form>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por: <strong>Guilherme Gabriel</strong> &copy Todos Direitos Reservados.</p>
+    </footer>
+</body>
+</html>
